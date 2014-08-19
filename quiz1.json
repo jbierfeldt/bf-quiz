@@ -1,0 +1,105 @@
+[
+  {
+    "quiz_title":"Which UChicago Building Are You?",
+    "quiz_results":[
+      {
+        "result": {
+          "title": "Rosenwald",
+          "text": "A Fun place!",
+          "id": 0
+        }
+      },
+      {
+        "result": {
+          "title": "Cobb",
+          "text": "A hipster place.",
+          "id": 1
+        }
+      },
+      {
+        "result": {
+          "title": "Walker",
+          "text": "A financial-aide place.",
+          "id": 2
+        }
+      }
+    ],
+    "quiz_questions":[
+      {
+        "question": {
+          "text": "What do you like to do most?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "Dance",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "Nothing",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "Accounting",
+                "value": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question": {
+          "text": "What do you like to wear?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "Maroon! Duh!",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "Tight jeans.",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "Grey flannel suits.",
+                "value": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question": {
+          "text": "Which food do you like best?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "Chicago dog! (No ketchup!)",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "Coffee.",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "A sensible salad.",
+                "value": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
