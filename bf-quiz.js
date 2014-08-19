@@ -20,9 +20,11 @@ BF_QUIZ.quiz = function () {
     },
     
     writeQuiz = function writeQuiz() {
+        newQuizWrapper = document.createElement('div');
+        newQuizWrapper.className = 'quiz-wrapper';
         newTitle = document.createElement('h1');
         newTitle.innerHTML = quiz_title;
-        quiz_div.appendChild(newTitle);
+        newQuizWrapper.appendChild(newTitle);
         for (var i = 0; i < questions.length; i++) {
             newQuestion = document.createElement('div');
             newQuestion.className = 'quiz-question';
@@ -32,7 +34,7 @@ BF_QUIZ.quiz = function () {
             newQuestionText.innerHTML = questions[i].question.text;
             newQuestionWrapper.appendChild(newQuestionText);
             newQuestion.appendChild(newQuestionWrapper);
-            quiz_div.appendChild(newQuestion);
+            newQuizWrapper.appendChild(newQuestion);
             newAnswerForm = document.createElement('form');
             for (var j = 0; j < questions[i].question.question_answers.length; j++) {
                 newAnswer = document.createElement('div');
@@ -45,14 +47,16 @@ BF_QUIZ.quiz = function () {
                 newAnswerText.innerHTML = questions[i].question.question_answers[j].answer.text;
                 newAnswerInput = document.createElement('input');
                 newAnswerInput.type = 'radio';
+                newAnswerInput.name = "answer";
                 inputs.push(newAnswerInput);
                 newAnswerWrapper.appendChild(newAnswerText);
                 newAnswerWrapper.appendChild(newAnswerInput);
                 newAnswer.appendChild(newAnswerWrapper);
                 newAnswerForm.appendChild(newAnswer);
             }
-            quiz_div.appendChild(newAnswerForm);
+            newQuizWrapper.appendChild(newAnswerForm);
         }
+        quiz_div.appendChild(newQuizWrapper);
     }
     
     checkInputs = function checkInputs() {

@@ -1,3 +1,26 @@
-.hidden {
-    display: none;
+body, html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#f4ac6c;
+}
+
+#bf-quiz {
+    width:1230px;
+    margin:0 auto;
+    background:#99c;
+}
+
+.quiz-wrapper {
+    float:left;
+    width:800px;
+    background:#9c9;
+    height: 100%;
+}
+
+.quiz-result {
+    float:right;
+    width:430px;
+    background:#c9c;
+    height: 100%;
 }
