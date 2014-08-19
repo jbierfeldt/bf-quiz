@@ -4,6 +4,10 @@ Pure Javascript/JSON BuzzFeed Quiz Clone
 
 Originally developed for use by the University of Chicago Outreach department.
 
+Demo
+----
+http://sandbox.bierfeldt.me/quiz/
+
 Features
 --------
 
