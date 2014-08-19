@@ -14,7 +14,7 @@ How to use
 ----------
 Add the JS file to your page, make a JSON Quiz, and add the ``<div id="bf-quiz"></div>`` element to your HTML.
 
-###
+```
   #HTML
   <head>
   ....
@@ -28,4 +28,4 @@ Add the JS file to your page, make a JSON Quiz, and add the ``<div id="bf-quiz">
   <!-- Include the bf-quiz div -->
   <div id="bf-quiz"></div>
   ....
-###
+```
