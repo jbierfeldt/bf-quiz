@@ -13,14 +13,13 @@ body, html {
 
 .quiz-wrapper {
     float:left;
-    width:800px;
+    width:65%;
     background:#9c9;
-    height: 100%;
 }
 
 .quiz-result {
     float:right;
-    width:430px;
+    width:35%;
     background:#c9c;
     height: 100%;
 }

@@ -4,21 +4,21 @@
     "quiz_results":[
       {
         "result": {
-          "title": "Rosenwald",
+          "title": "Rosenwald Hall",
           "text": "A Fun place!",
           "id": 0
         }
       },
       {
         "result": {
-          "title": "Cobb",
+          "title": "Cobb Hall",
           "text": "A hipster place.",
           "id": 1
         }
       },
       {
         "result": {
-          "title": "Walker",
+          "title": "Walker Meuseum",
           "text": "A financial-aide place.",
           "id": 2
         }
@@ -94,6 +94,31 @@
             {
               "answer": {
                 "text": "A sensible salad.",
+                "value": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question": {
+          "text": "What animal best represents you?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "No animal, just Maroon!",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "I like cats.",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "Probably the sloth.",
                 "value": 2
               }
             }
