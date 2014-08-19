@@ -1,0 +1,105 @@
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bf-quiz.js"></script>
+</head>
+<body onload=initialize()>
+<script type="text/javascript">
+function initialize() {
+    myquiz = quizPrototype;
+    myquiz.addClickEvents();
+}
+</script>
+<div id="quizzie">
+  <h1>UChicago - Which Scav Item are You?</h1>
+    <ul class="quiz-step step1 current">
+        <li class="quiz-question">
+            <div class="question-wrap">
+                <h2>Question #1: What do you think of Scav?</h2>
+            </div>
+        </li>
+        <form>
+            <li class="quiz-answer" data-quizValue="1">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">Hate It!</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+            <li class="quiz-answer" data-quizValue="0">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">Love It!</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+            <li class="quiz-answer" data-quizValue="2">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">What's Scav?</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+        </form>
+    </ul>
+    <ul class="quiz-step step2">
+        <li class="quiz-question">
+            <div class="question-wrap">
+                <h2>Question #2: Do you like birds?</h2>
+            </div>
+        </li>
+        <form>
+            <li class="quiz-answer" data-quizValue="1">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">Not really.</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+            <li class="quiz-answer" data-quizValue="0">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">Of course!</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+            <li class="quiz-answer" data-quizValue="2">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">What are birds??</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+        </form>
+    </ul>
+    <ul class="quiz-step step2">
+        <li class="quiz-question">
+            <div class="question-wrap">
+                <h2>Question #3: What is your dream job?</h2>
+            </div>
+        </li>
+        <form>
+            <li class="quiz-answer" data-quizValue="1">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">Garage Salesman</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+            <li class="quiz-answer" data-quizValue="2">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">I'm really not sure!</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+            <li class="quiz-answer" data-quizValue="0">
+                <div class="answer-wrap"> 
+                    <p class="answer-text">Racecar Driver</p><input type="radio" class="answer" name="answer">
+                </div>
+            </li>
+        </form>
+    </ul>
+    <div class="quiz-result hidden" data-quizResult="0">
+        <div class="result-wrap">
+            <p>You are a dinosaur!</p>
+        </div>
+    </div>
+    <div class="quiz-result hidden" data-quizResult="1">
+        <div class="result-wrap">
+            <p>You are a mobile-phone!</p>
+        </div>
+    </div>
+    <div class="quiz-result hidden" data-quizResult="2">
+        <div class="result-wrap">
+            <p>You are confused.</p>
+        </div>
+    </div>
+</div>
+</body>
