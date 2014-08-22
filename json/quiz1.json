@@ -1,0 +1,229 @@
+[
+    {
+        "quiz_title": "Which UChicago Building Are You?",
+        "quiz_results": [
+            {
+                "result": {
+                    "title": "The Reg",
+                    "text": "The Reg",
+                    "id": 0
+                }
+            },
+            {
+                "result": {
+                    "title": "Max Palevsky",
+                    "text": "Max Palevsky",
+                    "id": 1
+                }
+            },
+            {
+                "result": {
+                    "title": "Saieh Hall",
+                    "text": "Saieh Hall",
+                    "id": 2
+                }
+            },
+            {
+                "result": {
+                    "title": "Mansueto",
+                    "text": "Mansueto",
+                    "id": 3
+                }
+            },
+            {
+                "result": {
+                    "title": "Harper",
+                    "text": "Harper",
+                    "id": 4
+                }
+            }
+        ],
+        "quiz_questions": [
+            {
+                "question": {
+                    "text": "How tall are you?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "Not too tall",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "About average, but I find ways to bring attention to myself",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "I have a very imposing figure",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Slightly shorter than most",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "I'm shorter than I am wide",
+                                "value": 3
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "question": {
+                    "text": "Which Seinfeld character are you?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "Jerry",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Elaine",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "George",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Kramer",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "That giant glass dome they were always hanging out with",
+                                "value": 3
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "question": {
+                    "text": "What is your best quality?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "My determination",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My classiness",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My adapability",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My UV blocking panels",
+                                "value": 3
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My vibrant fashion sense",
+                                "value": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "question": {
+                    "text": "What's your favorite sport?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "I don't really like sports",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Whatever's going on, I love to compete!",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Baseball, the game of the free-market!",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Soccer, the most elegant game",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Curling, it's so smooth",
+                                "value": 3
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "question": {
+                    "text": "When do you feel most active?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "Business hours",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "I love reading late into the night",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My hours are 8:00 AM to 12:45 AM, with the circulation desk closing earlier",
+                                "value": 3
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Whenever something awesome is happening!",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Until I burn out",
+                                "value": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]

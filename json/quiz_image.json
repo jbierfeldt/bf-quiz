@@ -1,0 +1,260 @@
+[
+  {
+    "quiz_title":"Which UChicago Building Are You?",
+    "quiz_image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+    "quiz_results":[
+      {
+        "result": {
+          "title": "The Reg",
+          "text": "The Reg",
+          "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+          "id": 0
+        }
+      },
+      {
+        "result": {
+          "title": "Max Palevsky",
+          "text": "Max Palevsky",
+          "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+          "id": 1
+        }
+      },
+      {
+        "result": {
+          "title": "Saieh Hall",
+          "text": "Saieh Hall",
+          "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+          "id": 2
+        }
+      },
+      {
+        "result": {
+          "title": "Mansueto",
+          "text": "Mansueto",
+          "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+          "id": 3
+        }
+      },
+      {
+        "result": {
+          "title": "Harper",
+          "text": "Harper",
+          "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+          "id": 4
+        }
+      }
+    ],
+    "quiz_questions":[
+      {
+        "question": {
+          "text": "How tall are you?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "Not too tall",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 4
+              }
+            },
+            {
+              "answer": {
+                "text": "About average, but I find ways to bring attention to myself",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 2
+              }
+            },
+            {
+              "answer": {
+                "text": "I have a very imposing figure",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "Slightly shorter than most",
+                "image": "http://news.distractify.com/wp-content/uploads/2014/01/new-userguide-image.jpg",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "I'm shorter than I am wide",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 3
+              }
+            },
+            {
+              "answer": {
+                "text": "I'm shorter than I am wide",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": -1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question": {
+          "text": "Which Seinfeld character are you?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "Jerry",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 4
+              }
+            },
+            {
+              "answer": {
+                "text": "Elaine",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 2
+              }
+            },
+            {
+              "answer": {
+                "text": "George",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "Kramer",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "That giant glass dome they were always hanging out with",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 3
+              }
+            },
+            {
+              "answer": {
+                "text": "That giant glass dome they were always hanging out with",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question": {
+          "text": "What is your best quality?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "My determination",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "My classiness",
+                "value": 4
+              }
+            },
+            {
+              "answer": {
+                "text": "My adapability",
+                "value": 2
+              }
+            },
+            {
+              "answer": {
+                "text": "My UV blocking panels",
+                "value": 3
+              }
+            },
+            {
+              "answer": {
+                "text": "My vibrant fashion sense",
+                "value": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question": {
+          "text": "What's your favorite sport?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "I don't really like sports",
+                "value": 0
+              }
+            },
+            {
+              "answer": {
+                "text": "Whatever's going on, I love to compete!",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "Baseball, the game of the free-market!",
+                "value": 2
+              }
+            },
+            {
+              "answer": {
+                "text": "Soccer, the most elegant game",
+                "value": 4
+              }
+            },
+            {
+              "answer": {
+                "text": "Curling, it's so smooth",
+                "value": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question": {
+          "text": "When do you feel most active?",
+          "question_answers":[
+            {
+              "answer": {
+                "text": "Business hours",
+                "value": 2
+              }
+            },
+            {
+              "answer": {
+                "text": "I love reading late into the night",
+                "value": 4
+              }
+            },
+            {
+              "answer": {
+                "text": "My hours are 8:00 AM to 12:45 AM, with the circulation desk closing earlier",
+                "image": "http://www.chicagonow.com/fitness-at-home/files/2011/08/chocolate_cookies.jpg",
+                "value": 3
+              }
+            },
+            {
+              "answer": {
+                "text": "Whenever something awesome is happening!",
+                "value": 1
+              }
+            },
+            {
+              "answer": {
+                "text": "Until I burn out",
+                "value": 0
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
