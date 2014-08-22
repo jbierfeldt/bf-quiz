@@ -52,39 +52,39 @@ BF_QUIZ.quiz = function () {
       	var newQuizWrapper, newTitle, newQuestionTextWrapper, newQuestionText,
             newAnswerForm, newAnswer, newAnswerImage, newAnswerTextWrapper, newAnswerInput,
             newAnswerText, newQuestion;
-        newQuizWrapper = document.createElement('div');
-        newQuizWrapper.className = 'quiz-wrapper';
-        newTitle = document.createElement('h1');
+        newQuizWrapper = document.createElement("div");
+        newQuizWrapper.className = "quiz-wrapper";
+        newTitle = document.createElement("h1");
         newTitle.innerHTML = quiz_title;
         newQuizWrapper.appendChild(newTitle);
         for (var i = 0; i < questions.length; i++) {
-            newQuestionTextWrapper = document.createElement('div');
-            newQuestionTextWrapper.className = 'quiz-question-text-wrapper';
-            newQuestionText = document.createElement('h2');
+            newQuestionTextWrapper = document.createElement("div");
+            newQuestionTextWrapper.className = "quiz-question-text-wrapper";
+            newQuestionText = document.createElement("h2");
             newQuestionText.innerHTML = questions[i].question.text;
             newQuestionTextWrapper.appendChild(newQuestionText);
-            newAnswerForm = document.createElement('form');
+            newAnswerForm = document.createElement("form");
             for (var j = 0; j < questions[i].question.question_answers.length; j++) {
-                newAnswer = document.createElement('div');
-                newAnswer.className = 'quiz-answer';
-                newAnswer.setAttribute('data-quizValue', 
+                newAnswer = document.createElement("div");
+                newAnswer.className = "quiz-answer";
+                newAnswer.setAttribute("data-quizValue", 
                     questions[i].question.question_answers[j].answer.value);
                 if (questions[i].question.question_answers[j].answer.image) {
-                    newAnswerImage = document.createElement('img');
+                    newAnswerImage = document.createElement("img");
                     newAnswerImage.src = questions[i].question.question_answers[j].answer.image;
                     newAnswer.appendChild(newAnswerImage);
                 }
                 else{
                     //no image  
                 }
-                newAnswerTextWrapper = document.createElement('div');
-                newAnswerTextWrapper.className = 'quiz-answer-text-wrapper';
-                newAnswerTextWrapper.id = 'quiz-answer-text-wrapper';
-                newAnswerInput = document.createElement('input');
-                newAnswerInput.type = 'radio';
+                newAnswerTextWrapper = document.createElement("div");
+                newAnswerTextWrapper.className = "quiz-answer-text-wrapper";
+                newAnswerTextWrapper.id = "quiz-answer-text-wrapper";
+                newAnswerInput = document.createElement("input");
+                newAnswerInput.type = "radio";
                 newAnswerInput.name = "answer";
                 inputs.push(newAnswerInput);
-                newAnswerText = document.createElement('label');
+                newAnswerText = document.createElement("label");
                 newAnswerText.innerHTML = questions[i].question.question_answers[j].answer.text;
                 newAnswerTextWrapper.appendChild(newAnswerInput);
                 newAnswerTextWrapper.appendChild(newAnswerText);
@@ -92,8 +92,8 @@ BF_QUIZ.quiz = function () {
                 answers.push(newAnswer);
                 newAnswerForm.appendChild(newAnswer);
             }
-            newQuestion = document.createElement('div');
-            newQuestion.className = 'quiz-question';
+            newQuestion = document.createElement("div");
+            newQuestion.className = "quiz-question";
             newQuestion.appendChild(newQuestionTextWrapper);
             newQuestion.appendChild(newAnswerForm);
             newQuizWrapper.appendChild(newQuestion);
@@ -136,19 +136,19 @@ BF_QUIZ.quiz = function () {
     
     writeResult = function writeResult() {
       	var newResult, newResultWrapper, newResultTitle, newResultText;
-        newResult = document.createElement('div');
-        newResult.className = 'quiz-result';
-        newResultWrapper = document.createElement('div');
-        newResultWrapper.className = 'quiz-result-text-wrapper';
-        newResultTitle = document.createElement('h3');
+        newResult = document.createElement("div");
+        newResult.className = "quiz-result";
+        newResultWrapper = document.createElement("div");
+        newResultWrapper.className = "quiz-result-text-wrapper";
+        newResultTitle = document.createElement("h3");
         newResultTitle.innerHTML = highest_score.result.title;
-        newResultText = document.createElement('p');
+        newResultText = document.createElement("p");
         newResultText.innerHTML = highest_score.result.text;
         newResultWrapper.appendChild(newResultTitle);
         newResultWrapper.appendChild(newResultText);
         newResult.appendChild(newResultWrapper);
         quiz_div.appendChild(newResult);
-        console.log('print');
+        console.log("print");
     },
     
     updateSelectedAnswer = function updateSelectedAnswer(element) {
@@ -169,7 +169,7 @@ BF_QUIZ.quiz = function () {
             }
         };
         for (var i = 0; i < answers.length; i++) {
-            answers[i].addEventListener('click', onAnswerClick);
+            answers[i].addEventListener("click", onAnswerClick);
         }
     },
     
@@ -191,13 +191,13 @@ BF_QUIZ.quiz = function () {
 }();
 
 BF_QUIZ.quizLoader = function () {
+    "use strict";
 
-    var 
-    json_data, request,
+    var json_data, request,
     
     loadQuizJSON = function loadQuizJSON(json_url) {
         request = new XMLHttpRequest();
-        request.open('GET', json_url, false);
+        request.open("GET", json_url, false);
         request.onload = function() {
             if (request.status >= 200 && request.status < 400) {
                 // Success!
