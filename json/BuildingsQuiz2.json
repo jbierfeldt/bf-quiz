@@ -6,7 +6,7 @@
         "result": {
           "title": "The Regenstein Library",
           "text": "The Regenstein Library. Things gotta get done and you're the one to do them, so put on a pot of coffee, drag out the power strip, and let's get to work. Sometimes you think other people need to step up and give you a hand, but you're going straight to the top with or without them. Hole up in the sprawling Regenstein library and start checking items off the to-do list.",
-          "image": "http://www.ux1.eiu.edu/~cfjps/1300/reg.gif",
+          "image": "http://upload.wikimedia.org/wikipedia/commons/d/d0/Regenstein_Library_entrance2.jpg",
           "id": 0
         }
       },
@@ -14,6 +14,7 @@
         "result": {
           "title": "Max Palevsky Residence Hall",
           "text": "Max Palevsky Residence Hall. Loud, colorful, and everyone's best friend, you like having a good time and living in the now. You're the life of every party you walk into, and won't let anyone forget who you are. While some might find your love of color a little over the top, you'd rather be fab than drab.",
+          "image": "http://legorretalegorreta.com/en/wp-content/uploads/2011/03/6CHICAGO-500x420.jpg",
           "id": 1
         }
       },
@@ -21,6 +22,7 @@
         "result": {
           "title": "Saieh Hall",
           "text": "Saieh Hall. You were born wearing business casual. You gotta keep you emotions in check and your eye on the corner office to get ahead in today's market, and that's just the way you like it. Whenever people think they've seen all you got, you surprise them with something fresh.",
+          "image": "http://c011035cf99f431605b3-347991228b46ee9d365964d5afc064e2.r90.cf2.rackcdn.com/featuredprojects/Hero_daytime1.jpg",
           "id": 2
         }
       },
@@ -28,7 +30,7 @@
         "result": {
           "title": "Mansueto Library",
           "text": "Mansueto Library. You are very large and made primarily of UV blocking glass panels tiled to create a dome. You house millions of volumes in an underground bookstack where items are retrieved by robots. You are named after Joe and Rika Mansueto",
-          "image": "http://www.ux1.eiu.edu/~cfjps/1300/reg.gif",
+          "image": "http://news.lib.uchicago.edu/wp-content/uploads/2014/03/Mansueto.jpg",
           "id": 3
         }
       },
@@ -36,6 +38,7 @@
         "result": {
           "title": "Harper Memorial",
           "text": "Harper Memorial. You appreciate the finer things in life: stained glass, fair trade coffee, and elegant gothic libraries like Harper. You can often be found up late in your plush armchair and reading a volume of English poetry in front of a roaring fire. You may currently be wearing an ascot.",
+          "image": "https://c2.staticflickr.com/8/7058/6913465479_d99efb922b_z.jpg",
           "id": 4
         }
       },
@@ -43,6 +46,7 @@
        	"result": {
        	  "title": "Cobb Hall",
        	  "text": "Cobb Hall. Cool, smart, and laid back, you're way more important than most people realize, but that's just the way you like it. You're a quiet leader, and your strength is behind the scenes, keeping everything running smoothly and efficiently instead of feeling the need to be in front all the time. Also, you enjoy a good hipster coffee shop now and then. ",
+       	  "image": "http://londonparticulars.files.wordpress.com/2011/02/hipster.jpg",
        	  "id": 5
        	}
        } 
@@ -55,37 +59,42 @@
             {
               "answer": {
                 "text": "Not too tall",
-                "image": "http:linktoimage/",
+                "image": "http://1.bp.blogspot.com/_mpNMTJ1byHU/TD_dQ5PwLuI/AAAAAAAACEI/mCtYDpqCaLk/s320/TURKEY_20040723_03.jpg",
                 "value": 4
               }
             },
             {
               "answer": {
                 "text": "About average, but I find ways to bring attention to myself",
+                "image": "http://1.bp.blogspot.com/_mpNMTJ1byHU/TD_dQ5PwLuI/AAAAAAAACEI/mCtYDpqCaLk/s320/TURKEY_20040723_03.jpg",
                 "value": 2
               }
             },
             {
               "answer": {
                 "text": "I have a very imposing figure",
+                "image": "http://1.bp.blogspot.com/_mpNMTJ1byHU/TD_dQ5PwLuI/AAAAAAAACEI/mCtYDpqCaLk/s320/TURKEY_20040723_03.jpg",
                 "value": 0
               }
             },
             {
               "answer": {
                 "text": "Slightly shorter than most",
+                "image": "http://1.bp.blogspot.com/_mpNMTJ1byHU/TD_dQ5PwLuI/AAAAAAAACEI/mCtYDpqCaLk/s320/TURKEY_20040723_03.jpg",
                 "value": 1
               }
             },
             {
               "answer": {
                 "text": "I'm shorter than I am wide",
+                "image": "http://1.bp.blogspot.com/_mpNMTJ1byHU/TD_dQ5PwLuI/AAAAAAAACEI/mCtYDpqCaLk/s320/TURKEY_20040723_03.jpg",
                 "value": 3
               }
             },
             {
               	"answer": {
               	"text": "Taller than average, but I slouch",
+              	"image": "http://1.bp.blogspot.com/_mpNMTJ1byHU/TD_dQ5PwLuI/AAAAAAAACEI/mCtYDpqCaLk/s320/TURKEY_20040723_03.jpg",
               	"value":5
               	}            
 	         }
@@ -99,36 +108,42 @@
             {
               "answer": {
                 "text": "Jerry",
+                "image": "http://www.valueofstamps.net/wp-content/uploads/2012/01/The-postal-dog-stamp.jpg",
                 "value": 4
               }
             },
             {
               "answer": {
                 "text": "Elaine",
+                "image": "http://www.valueofstamps.net/wp-content/uploads/2012/01/The-postal-dog-stamp.jpg",
                 "value": 2
               }
             },
             {
               "answer": {
                 "text": "George",
+                "image": "http://www.valueofstamps.net/wp-content/uploads/2012/01/The-postal-dog-stamp.jpg",
                 "value": 0
               }
             },
             {
               "answer": {
                 "text": "Kramer",
+                "image": "http://www.valueofstamps.net/wp-content/uploads/2012/01/The-postal-dog-stamp.jpg",
                 "value": 1
               }
             },
             {
               "answer": {
                 "text": "That giant glass dome they were always hanging out with",
+                "image": "http://www.valueofstamps.net/wp-content/uploads/2012/01/The-postal-dog-stamp.jpg",
                 "value": 3
               }
             },
             {
               "answer":{
               	"text": "Larry David. He was too a character!",
+              	"image": "http://www.valueofstamps.net/wp-content/uploads/2012/01/The-postal-dog-stamp.jpg",
               	"value": 5
               }
             }
@@ -142,36 +157,42 @@
             {
               "answer": {
                 "text": "My determination",
+                "image": "http://lh3.googleusercontent.com/-wNQmaHDURF0/UL1juVHUtgI/AAAAAAACB8c/YZKOPHSkEX8/s0/s-17.jpg",
                 "value": 0
               }
             },
             {
               "answer": {
                 "text": "My classiness",
+                "image": "http://lh3.googleusercontent.com/-wNQmaHDURF0/UL1juVHUtgI/AAAAAAACB8c/YZKOPHSkEX8/s0/s-17.jpg",
                 "value": 4
               }
             },
             {
               "answer": {
                 "text": "My adapability",
+                "image": "http://lh3.googleusercontent.com/-wNQmaHDURF0/UL1juVHUtgI/AAAAAAACB8c/YZKOPHSkEX8/s0/s-17.jpg",
                 "value": 2
               }
             },
             {
               "answer": {
                 "text": "My UV blocking panels",
+                "image": "http://lh3.googleusercontent.com/-wNQmaHDURF0/UL1juVHUtgI/AAAAAAACB8c/YZKOPHSkEX8/s0/s-17.jpg",
                 "value": 3
               }
             },
             {
               "answer": {
                 "text": "My vibrant fashion sense",
+                "image": "http://lh3.googleusercontent.com/-wNQmaHDURF0/UL1juVHUtgI/AAAAAAACB8c/YZKOPHSkEX8/s0/s-17.jpg",
                 "value": 1
               }
             },
             {
               "answer":{
               	"text": "My wit",
+              	"image": "http://lh3.googleusercontent.com/-wNQmaHDURF0/UL1juVHUtgI/AAAAAAACB8c/YZKOPHSkEX8/s0/s-17.jpg",
               	"value": 5
 
               }
@@ -186,36 +207,42 @@
             {
               "answer": {
                 "text": "I don't really like sports",
+                "image": "http://legacy-cdn.smosh.com/smosh-pit/4/stamps-8.jpg",
                 "value": 0
               }
             },
             {
               "answer": {
                 "text": "Whatever's going on, I love to compete!",
+                "image": "http://legacy-cdn.smosh.com/smosh-pit/4/stamps-8.jpg",
                 "value": 1
               }
             },
             {
               "answer": {
                 "text": "Baseball, the game of the free-market!",
+                "image": "http://legacy-cdn.smosh.com/smosh-pit/4/stamps-8.jpg",
                 "value": 2
               }
             },
             {
               "answer": {
                 "text": "Soccer, the most elegant game",
+                "image": "http://legacy-cdn.smosh.com/smosh-pit/4/stamps-8.jpg",
                 "value": 4
               }
             },
             {
               "answer": {
                 "text": "Curling, it's so smooth",
+                "image": "http://legacy-cdn.smosh.com/smosh-pit/4/stamps-8.jpg",
                 "value": 3
               }
             },
             {
               "answer": {
               	"text": "Soccer: simple in rules but complex in strategy",
+              	"image": "http://legacy-cdn.smosh.com/smosh-pit/4/stamps-8.jpg",
               	"value": 5
               }
             }
@@ -229,36 +256,42 @@
             {
               "answer": {
                 "text": "Business hours",
+                "image": "http://www.2-clicks-stamps.com/images/image/stamp%20price.jpg",
                 "value": 2
               }
             },
             {
               "answer": {
                 "text": "I love reading late into the night",
+                "image": "http://www.2-clicks-stamps.com/images/image/stamp%20price.jpg",
                 "value": 4
               }
             },
             {
               "answer": {
                 "text": "My hours are 8:00 AM to 12:45 AM, with the circulation desk closing earlier",
+                "image": "http://www.2-clicks-stamps.com/images/image/stamp%20price.jpg",
                 "value": 3
               }
             },
             {
               "answer": {
                 "text": "Whenever something awesome is happening!",
+                "image": "http://www.2-clicks-stamps.com/images/image/stamp%20price.jpg",
                 "value": 1
               }
             },
             {
               "answer": {
                 "text": "Until I burn out",
+                "image": "http://www.2-clicks-stamps.com/images/image/stamp%20price.jpg",
                 "value": 0
               }
             },
             {
               "answer": {
               	"text": "I'm usually pretty mellow all the time",
+              	"image": "http://www.2-clicks-stamps.com/images/image/stamp%20price.jpg",
               	"value": 5
               }	
             }
@@ -272,12 +305,14 @@
       		  {
       		  	"answer": {
       		  	  "text": "No, what are you talking about?",
+      		  	  "image": "http://www.debbieschlussel.com/archives/trampstamp.jpg",
       		  	  "value": -1
       		  	}
       		  },
       		  {
       		  	"answer": {
       		  		"text": "I had a small cameo, yes.",
+      		  		"image": "http://www.debbieschlussel.com/archives/trampstamp.jpg",
       		  		"value": 5
       		  	}
       		  }	
