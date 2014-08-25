@@ -135,9 +135,14 @@ BF_QUIZ.quiz = function () {
     },
     
     writeResult = function writeResult() {
-      	var newResult, newResultWrapper, newResultTitle, newResultText;
+      	var newResult, newResultWrapper, newResultTitle, newResultText, newResultImage;
         newResult = document.createElement("div");
         newResult.className = "quiz-result";
+        if (highest_score.result.image) {
+            newResultImage = document.createElement("img");
+            newResultImage.src = highest_score.result.image;
+            newResult.appendChild(newResultImage);
+        }
         newResultWrapper = document.createElement("div");
         newResultWrapper.className = "quiz-result-text-wrapper";
         newResultTitle = document.createElement("h3");
@@ -148,7 +153,6 @@ BF_QUIZ.quiz = function () {
         newResultWrapper.appendChild(newResultText);
         newResult.appendChild(newResultWrapper);
         quiz_div.appendChild(newResult);
-        console.log("print");
     },
     
     updateSelectedAnswer = function updateSelectedAnswer(element) {
@@ -175,6 +179,7 @@ BF_QUIZ.quiz = function () {
     
     disableAnswers = function disableAnswers() {
         for (var q = 0; q < answers.length; q++) {
+            answers[q].disabled = true;
             answers[q].setAttribute("disabled", true);
             answers[q].className = answers[q].className + " disabled";
         }
@@ -215,7 +220,6 @@ BF_QUIZ.quizLoader = function () {
     return {
         init: function(json_url) {
             loadQuizJSON(json_url);
-            console.log(json_data);
             BF_QUIZ.quiz.init(json_data);
         }
     };

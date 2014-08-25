@@ -4,9 +4,6 @@ body, html {
     color:#000;
 }
 
-.disabled {
-    color: grey;
-}
 .disabled img {
     opacity: .5;
 }
@@ -61,6 +58,11 @@ body, html {
 
 .quiz-answer.selected {
     background-color: #bed5ed
+}
+
+.quiz-answer.disabled, .quiz-answer.disabled:hover {
+    color: grey;
+    background-color: rgba(185,185,185,0.62);
 }
 
 .quiz-answer img {
