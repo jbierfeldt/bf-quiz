@@ -33,3 +33,4 @@ Add the JS file to your page, make a JSON Quiz, and add the ``<div id="bf-quiz">
   <div id="bf-quiz"></div>
   ....
 ```
+//update test
