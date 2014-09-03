@@ -4,6 +4,23 @@
     <link rel="stylesheet" href="style.css">
     <script src="bf-quiz.js"></script>
 </head>
-<body onload=BF_QUIZ.quizLoader.init('http://sandbox.bierfeldt.me/bf-quiz/json/BuildingsQuiz2.json')>
+
+<!--
+<body onload="BF_QUIZ.quizLoader.init('https://collegeadmissions.uchicago.edu/sites/all/themes/plaisance/js/bf-json/BuildingsQuiz2.json')">
+-->
+<body>
+<script>
+window.onload = function(){
+
+BF_QUIZ.quizLoader.init('https://collegeadmissions.uchicago.edu/sites/all/themes/plaisance/js/bf-json/BuildingsQuiz2.json');
+
+}
+</script>
+
+
 <div id="bf-quiz"></div>
+
+
+
+
 </body>

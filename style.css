@@ -14,16 +14,22 @@ body, html {
 }
 
 .quiz-wrapper {
-    float:left;
+    margin: 0 auto;
     width:65%;
 }
 
 .quiz-result {
-    float:right;
-    width:35%;
-    background:#c9c;
-    height: 100%;
+    background:#f1f1f1;
+    width: 65%;
+    overflow: auto;
+    margin: 0 auto;
 }
+.quiz-result img {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
 
 .quiz-question {
     margin-bottom: 20px;
@@ -79,4 +85,38 @@ body, html {
 
 .quiz-answer .quiz-answer-text-wrapper input[type="radio"] {
     display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+label:before {
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #aaa;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    border-radius: 3px;
+}
+input[type=checkbox] {
+    display: none;
+}
+.quiz-answer.selected label:before {
+    content:"\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 15px;
 }
