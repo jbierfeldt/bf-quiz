@@ -1,3 +1,23 @@
+// FB API - To use the FB Share Function, create a Facebook
+// Application and add its appId below
+// ########################################################
+// window.fbAsyncInit = function() {
+//     FB.init({
+//       appId      : '000000000000000',
+//       xfbml      : true,
+//       version    : 'v2.2'
+//     });
+//   };
+//
+// (function(d, s, id){
+//    var js, fjs = d.getElementsByTagName(s)[0];
+//    if (d.getElementById(id)) {return;}
+//    js = d.createElement(s); js.id = id;
+//    js.src = "//connect.facebook.net/en_US/sdk.js";
+//    fjs.parentNode.insertBefore(js, fjs);
+//  }(document, 'script', 'facebook-jssdk'));
+// ########################################################
+
 // Adds the functionality to check if an element has a class
 HTMLElement.prototype.hasClass = function (className) {
     "use strict";
@@ -15,6 +35,21 @@ HTMLElement.prototype.removeClass = function (className) {
     }
     return this;
 };
+
+// Uncomment to enable FB Sharing
+// ########################################################
+// // FB API must be enabled for post sharing to work
+// var sharePost = function sharePost(quiz_title, result_name, result_description, result_image) {
+//         FB.ui({
+//             method: 'feed',
+//             link: document.URL,
+//             name: 'I\'m ' + result_name,
+//             caption: quiz_title,
+//             description: result_description,
+//             picture: "http://collegeadmissions.uchicago.edu/" + result_image
+//         }, function(response){});
+//     };
+// ########################################################
 
 // Building BF_QUIZ Module according to the principles outlined here: http://yuiblog.com/blog/2007/06/12/module-pattern/
 var BF_QUIZ = {};
@@ -49,18 +84,18 @@ BF_QUIZ.quiz = function () {
     
     // Writes the Quiz into the document
     writeQuiz = function writeQuiz() {
-      	var newQuizWrapper, newTitle, newQuestionTextWrapper, newQuestionText,
+        var newQuizWrapper, newTitle, newQuestionTextWrapper, newQuestionText,
             newAnswerForm, newAnswer, newAnswerImage, newAnswerTextWrapper, newAnswerInput,
             newAnswerText, newQuestion;
         newQuizWrapper = document.createElement("div");
         newQuizWrapper.className = "quiz-wrapper";
-        newTitle = document.createElement("h1");
+        newTitle = document.createElement("h2");
         newTitle.innerHTML = quiz_title;
         newQuizWrapper.appendChild(newTitle);
         for (var i = 0; i < questions.length; i++) {
             newQuestionTextWrapper = document.createElement("div");
             newQuestionTextWrapper.className = "quiz-question-text-wrapper";
-            newQuestionText = document.createElement("h2");
+            newQuestionText = document.createElement("h3");
             newQuestionText.innerHTML = questions[i].question.text;
             newQuestionTextWrapper.appendChild(newQuestionText);
             newAnswerForm = document.createElement("form");
@@ -111,7 +146,7 @@ BF_QUIZ.quiz = function () {
             }
         }
         if (c==questions.length) {
-        		calcResult();
+                calcResult();
         }
     },
     
@@ -135,7 +170,7 @@ BF_QUIZ.quiz = function () {
     },
     
     writeResult = function writeResult() {
-      	var newResult, newResultWrapper, newResultTitle, newResultText, newResultImage;
+        var newResult, newResultWrapper, newResultTitle, newResultText, newResultImage, newResultShare;
         newResult = document.createElement("div");
         newResult.className = "quiz-result";
         if (highest_score.result.image) {
@@ -149,8 +184,16 @@ BF_QUIZ.quiz = function () {
         newResultTitle.innerHTML = highest_score.result.title;
         newResultText = document.createElement("p");
         newResultText.innerHTML = highest_score.result.text;
+        newResultShare = document.createElement("div");
+        newResultShare.className = "fb-share-button";
+        newResultShare.innerHTML = "SHARE";
+        var sharePostEvent = function sharePostEvent() {
+            sharePost(quiz_title, highest_score.result.title, highest_score.result.text, highest_score.result.image);
+        };
+        newResultShare.addEventListener("click", sharePostEvent);
         newResultWrapper.appendChild(newResultTitle);
         newResultWrapper.appendChild(newResultText);
+        newResultWrapper.appendChild(newResultShare);
         newResult.appendChild(newResultWrapper);
         quiz_div.appendChild(newResult);
     },
@@ -166,10 +209,10 @@ BF_QUIZ.quiz = function () {
     },
     
     addClickEvents = function addClickEvents() {
-      	var onAnswerClick = function onAnswerClick() {
-        		if (!this.hasAttribute("disabled")) {
-            		updateSelectedAnswer(this);
-            		checkInputs();
+        var onAnswerClick = function onAnswerClick() {
+                if (!this.hasAttribute("disabled")) {
+                    updateSelectedAnswer(this);
+                    checkInputs();
             }
         };
         for (var i = 0; i < answers.length; i++) {
@@ -224,4 +267,3 @@ BF_QUIZ.quizLoader = function () {
         }
     };
 }();
-
