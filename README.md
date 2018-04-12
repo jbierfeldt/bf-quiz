@@ -6,7 +6,11 @@ Originally developed for use by the University of Chicago Outreach department.
 
 Demo
 ----
-http://sandbox.bierfeldt.me/quiz/
+https://collegeadmissions.uchicago.edu/uncommon-blog/which-uchicago-gargoyle-are-you
+
+https://collegeadmissions.uchicago.edu/uncommon-blog/which-uchicago-building-are-you
+
+https://collegeadmissions.uchicago.edu/uncommon-blog/which-uchicago-president-are-you
 
 Features
 --------
